@@ -4,7 +4,6 @@
   background-color: #f5f5f5;
 }
 
-
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -119,8 +118,6 @@ button:hover, button:focus, .button:hover, .button:focus {
   border-radius: 50%;
 }
 
-
-
 .page-footer {
     clear: both;
     -webkit-box-pack: center;
@@ -148,10 +145,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   text-align: center;
 }
 
-
-
 .page-header {
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,9 +154,17 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .page-header__item {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+            flex: 0 1 200px;
+    width: 120px;
+    height: auto;
+}
+
+
+.social-media__image {
+    height: 30px;
+    width: 30px;
 }
 
 .page-header__item:last-child {
@@ -379,4 +381,4 @@ button:hover, button:focus, .button:hover, .button:focus {
   h2 {
     font-size: 18px;
   }
-} 
+}  

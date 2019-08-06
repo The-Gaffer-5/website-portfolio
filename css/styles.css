@@ -133,7 +133,15 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .page-header__item {
-  flex: 0 1 200px;
+    flex: 0 1 200px;
+    width: 120px;
+    height: auto;
+}
+
+
+.social-media__image {
+    height: 30px;
+    width: 30px;
 }
 
 .page-header__item:last-child {
@@ -291,4 +299,4 @@ button:hover, button:focus, .button:hover, .button:focus {
   h2 {
     font-size: 18px;
   }
-} 
+}
